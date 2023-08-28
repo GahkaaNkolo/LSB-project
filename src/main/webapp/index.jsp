@@ -13,7 +13,7 @@
   <body>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container">
-        <h1 class="navbar-brand mb-0">My First Website About Horses</h1>
+        <h1 class="navbar-brand mb-0"> Welcome to Linux Spring Board LLC</h1>
       </div>
     </nav>
 
