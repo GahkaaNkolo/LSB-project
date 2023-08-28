@@ -1,46 +1,86 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<body>
-<h2>Welcome to Linux Spring Board!</h2>
-</body>
-</html>
 
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title> LSB Registration Form</title>
-</head>
-<body>
-<h1>Linux Spring Board Register Form</h1>
-<form action="guru_register" method="post">
-                        <table style="with: 50%">
-                                <tr>
-                                        <td>First Name</td>
-                                        <td><input type="text" name="first_name" /></td>
-                                </tr>
-                                <tr>
-                                        <td>Last Name</td>
-                                        <td><input type="text" name="last_name" /></td>
-                                </tr>
-                                <tr>
-                                        <td>UserName</td>
-                                        <td><input type="text" name="username" /></td>
-                                </tr>
-                                        <tr>
-                                        <td>Password</td>
-                                        <td><input type="password" name="password" /></td>
-                                </tr>
-                                <tr>
-                                        <td>Address</td>
-                                        <td><input type="text" name="address" /></td>
-                                </tr>
-                                <tr>
-                                        <td>Contact No</td>
-                                        <td><input type="text" name="contact" /></td>
-                                </tr></table>
-                        <input type="submit" value="Submit" /></form>
-</body>
-</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>My First Website About Horses</title>
+  </head>
 
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <h1 class="navbar-brand mb-0">My First Website About Horses</h1>
+      </div>
+    </nav>
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Album example</h1>
+        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+        <p>
+          <a href="/" class="btn btn-primary">Main call to action</a>
+          <a href="/" class="btn btn-outline-secondary bg-white">Secondary action</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="album text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="col">
+            <img src="https://placehold.it/350x150" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+    <footer class="text-muted">
+      <div class="container">
+        <p>This web page was made with love and admiration by A Horse Lover.</p>
+      </div>
+    </footer>
+  </body>
+</html>
