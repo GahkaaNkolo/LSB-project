@@ -4,7 +4,6 @@
 <html>
 <body>
 <h2>Welcome to Linux Spring Board!</h2>
-<h2>Welcome to Linux Spring Board!</h2>
 </body>
 </html>
 
